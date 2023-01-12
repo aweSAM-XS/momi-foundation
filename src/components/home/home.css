@@ -1,0 +1,46 @@
+.home {
+	background-color: blueviolet;
+	height: 100vh;
+}
+.nav {
+	margin: 0 auto;
+	padding: 1rem 0;
+	width: 70%;
+	height: 10%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+}
+
+a {
+	color: aquamarine;
+	text-decoration: none;
+	font-weight: 690;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+
+.logo {
+	width: 5rem;
+}
+
+.hero {
+	background-image: url(../../assets/background.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 80%;
+}
+
+.hero-text {
+	text-align: left;
+	margin: auto;
+	width: 65%;
+}
+
+.hero a {
+	background: blueviolet;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 10px;
+}
