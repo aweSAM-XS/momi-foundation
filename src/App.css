@@ -1,5 +1,23 @@
 :root {
-  --dark-emerald: #084838;
-  --light-emerald: #0b5b4b;
-  --off-white: #f0f8ff;
+  --primary-color: #2b1055;
+  --sub-primary-color: #710462;
+  --complimentary-color: #b7003f;
+  --secondary-color: #fb4321;
+  --sub-secondary-color: #ffb427; 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #fff;
+  background-color: var(--secondary-color);
+  padding: 10px 20px;
+  border-radius: 10px;
 }
