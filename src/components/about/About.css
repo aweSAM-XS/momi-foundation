@@ -9,10 +9,6 @@
     padding: 50px 0;
 }
 
-.about {
-    color: var(--primary-color);
-}
-
 .about-content {
     display: flex;
     gap: 20px;

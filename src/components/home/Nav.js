@@ -14,10 +14,10 @@ export default function Nav() {
                     <a href='#about'>About</a>
                 </li>
                 <li className='nav-item'>
-                    <a href='#Home'>Support</a>
+                    <a href='#gallery'>Gallery</a>
                 </li>
                 <li className='nav-item'>
-                    <a href='#Home'>Contact</a>
+                    <a href='#support'>Support</a>
                 </li>
             </div>
         </nav>
