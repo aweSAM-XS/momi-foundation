@@ -1,11 +1,11 @@
 import logo from '../../assets/logo.png';
-import './home.css';
-export default function Nav() {
+import './Home.css';
+export default function Nav({place}) {
     return (
-        <nav className='nav'>
-                <div className='logo-container'>
-                    <img alt='logo' className='logo' src={logo}></img>
-                </div>
+        <nav className={place}>
+            <div className='logo-container'>
+                <img alt='logo' className='logo' src={logo}></img>
+            </div>
             <div className='nav-items'>
                 <li className='nav-item'>
                     <a href='#home'>Home</a>
