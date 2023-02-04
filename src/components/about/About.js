@@ -9,6 +9,9 @@ export default function About() {
                     <img alt='about' src={ezron} className='about-img' />
                 </div>
                 <div className='about-text'>
+                    <input type='radio' name='about' id='about' />
+                    <input type='radio' name='mission' id='mission' />
+                    <input type='radio' name='vision' id='vision' />
                     <p>
                         Momi Foundation is a non-profit organization is
                         dedicated to empowering our community through education
