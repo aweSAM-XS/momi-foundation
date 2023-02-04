@@ -12,6 +12,17 @@ export default function About() {
                     <input type='radio' name='about' id='about' />
                     <input type='radio' name='mission' id='mission' />
                     <input type='radio' name='vision' id='vision' />
+                    <header>
+                        <label for='about' className='about'>
+                            About
+                        </label>
+                        <label for='mission' className='mission'>
+                            Mission
+                        </label>
+                        <label for='vision' className='vision'>
+                            Vision
+                        </label>
+                    </header>
                     <p>
                         Momi Foundation is a non-profit organization is
                         dedicated to empowering our community through education
