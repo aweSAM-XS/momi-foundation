@@ -9,31 +9,31 @@ export default function Socials () {
 	return (
 		<div className='hero-btn'>
                     <div className='socials'>
-                        <a href='linkedin.com/momi-foundation'>
+                        <a href='https://www.linkedin.com/company/momi-foundation/'>
                             <img
                                 alt='linkedin icon'
                                 src={linkedin}
                                 className='social-icon'></img>
                         </a>
-                        <a href='github.com/momi-foundation'>
+                        <a href='https://github.com/momi-foundation-coding'>
                             <img
                                 alt='github icon'
                                 src={github}
                                 className='social-icon'></img>
                         </a>
-                        <a href='facebook.com/momi-foundation'>
+                        <a href='https://facebook.com/momi-foundation'>
                             <img
                                 alt='facebook'
                                 src={facebook}
                                 className='social-icon'></img>
                         </a>
-                        <a href='twitter.com/momi-foundation'>
+                        <a href='https://twitter.com/momi-foundation'>
                             <img
                                 alt='twitter icon'
                                 src={twitter}
                                 className='social-icon'></img>
                         </a>
-                        <a href='chat.whatsapp.com/momi-foundation'>
+                        <a href='https://chat.whatsapp.com/momi-foundation'>
                             <img
                                 alt='whatsapp icon'
                                 src={whatsapp}

@@ -11,7 +11,7 @@ export default function Nav({place}) {
                     <a href='#home'>Home</a>
                 </li>
                 <li className='nav-item'>
-                    <a href='#about'>About</a>
+                    <a href='#about-section'>About</a>
                 </li>
                 <li className='nav-item'>
                     <a href='#gallery'>Gallery</a>
