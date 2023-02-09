@@ -33,7 +33,10 @@ a {
 
 .footer-nav .nav-items {
     display: flex;
-    flex-direction: column;
+}
+
+.footer-nav .logo-container .logo {
+    display: none;
 }
 
 .nav-item {
