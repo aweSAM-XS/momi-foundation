@@ -1,5 +1,6 @@
 import ezron from '../../assets/ezron.png';
 import './About.css';
+import RadioButtons from './RadioButtons';
 export default function About() {
     return (
         <div id='about-section'>
@@ -9,9 +10,7 @@ export default function About() {
                     <img alt='about' src={ezron} className='about-img' />
                 </div>      
                 <div className='about-text'>
-                    <input type='radio' name='slider' id='mission' />
-                    <input type='radio' name='slider' id='about' checked />
-                    <input type='radio' name='slider' id='vision' />
+                    <RadioButtons />
                     <header>
                         <label for='mission' className='mission'>
                             Mission

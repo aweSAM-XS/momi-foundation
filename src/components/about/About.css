@@ -69,7 +69,7 @@ header label:nth-child(2) {
 header .slider {
     position: absolute;
     height: 85%;
-    width: 120px;
+    width: 20%;
     left: 50%;
     transform: translateX(-50%);
     border-radius: inherit;
@@ -78,21 +78,19 @@ header .slider {
 }
 
 #mission:checked ~ header .slider {
-    left: 9%;
-    width: 125px;
+    left: 5%;
+    /* width: 125px; */
     transform: translateX(-5%);
 }
 
 #about:checked ~ header .slider {
     left: 50%;
-    width: 120px;
     transform: translateX(-50%);
 }
 
 #vision:checked ~ header .slider {
-    left: 89%;
-    width: 115px;
-    transform: translateX(-85%);
+    left: 94%;
+    transform: translateX(-95%);
 }
 
 .about-text input[type='radio'] {
