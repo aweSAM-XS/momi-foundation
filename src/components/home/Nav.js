@@ -1,6 +1,6 @@
 import logo from '../../assets/logo.png';
 import './Home.css';
-export default function Nav({place}) {
+export default function Nav({ place }) {
     return (
         <nav className={place}>
             <div className='logo-container'>
