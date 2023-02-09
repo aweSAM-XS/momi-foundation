@@ -7,7 +7,7 @@ export default function About() {
             <div className='about-content'>
                 <div className='about-image'>
                     <img alt='about' src={ezron} className='about-img' />
-                </div>
+                </div>      
                 <div className='about-text'>
                     <input type='radio' name='slider' id='mission' />
                     <input type='radio' name='slider' id='about' checked />

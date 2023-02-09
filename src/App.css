@@ -4,6 +4,7 @@
   --complimentary-color: #b7003f;
   --secondary-color: #fb4321;
   --sub-secondary-color: #ffb427; 
+  --primary-gradient: linear-gradient(to bottom right, #2b1055, #710462);
 }
 
 * {

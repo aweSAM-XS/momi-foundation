@@ -56,19 +56,20 @@ header label {
     transition: all 0.3s ease;
 }
 
-#about:checked ~ header .about,
-#mission:checked ~ header .mission,
-#vision:checked ~ header .vision {
-    color: var(--sub-secondary-color);
-}
-
 header label:nth-child(2) {
     width: 40%;
+}
+
+#mission:checked ~ header .mission,
+#about:checked ~ header .about,
+#vision:checked ~ header .vision {
+    color: var(--sub-secondary-color);
 }
 
 header .slider {
     position: absolute;
     height: 85%;
+    width: 120px;
     left: 50%;
     transform: translateX(-50%);
     border-radius: inherit;
@@ -108,21 +109,22 @@ header .slider {
 }
 
 .cards .card {
+    padding: 10px;
     width: 33.33333333333333%;
 }
 
-.card .about-card {
+.card .mission-card {
     transition: all 0.3s ease;
 }
 
-#mission:checked ~ .cards-area .mission-card {
+#mission:checked ~ .cards-area .cards .mission-card {
     margin-left: 0%;
 }
 
-#about:checked ~ .cards-area .about-card {
+#about:checked ~ .cards-area .cards .mission-card {
     margin-left: -33.33333333333333%;
 }
 
-#vision:checked ~ .cards-area .vision-card {
+#vision:checked ~ .cards-area .cards .mission-card {
     margin-left: -66.66666666666666%;
 }
